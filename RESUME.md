@@ -15,11 +15,11 @@ Software engineer building production-oriented systems across AI-agent lifecycle
 
 **2025 - Present | Port Said, Egypt / Remote**
 
-- Architected a real-time market intelligence platform integrating 32-bit Java runtime instrumentation, authenticated ingestion, a concurrent Go canonical-state engine, technical services, WebSocket/SSE delivery, incremental browser rendering, and asynchronous SQLite persistence.
-- Validated a development recovery snapshot covering 279 instruments, 241,511 executions, and 954 participant-flow rows with 0 invalid rows, 0 scoped sequence gaps, 0 out-of-order events, 0 queue drops, and exact sampled trade-count/volume parity.
-- Designed mutation-driven streaming with bootstrap-plus-delta synchronization, shared serialization, slow-client isolation, sequence-aware resynchronization, 2/5/10 ms coalescing boundaries, and dirty-row/cell rendering instead of full-table redraws.
-- Implemented defense-in-depth controls including HMAC-authenticated framed TCP, signed UDP fallback, nonce replay protection, loopback-only internal services, invite-required viewer sessions, Origin checks, secure cookies, rate/capacity bounds, and audit logging.
-- Built and operated agent-style workflows covering tool orchestration, state/memory handling, permissions, guardrails, retries, health checks, structured logs, version compatibility, failure-mode analysis, and rollback-aware recovery on Windows-native environments.
+- Architected a real-time market intelligence platform integrating Java runtime instrumentation, authenticated ingestion, a concurrent Go canonical-state engine, WebSocket/SSE delivery, incremental browser rendering, and asynchronous SQLite persistence.
+- Validated a development recovery snapshot covering 279 instruments, 241,511 executions, and 954 participant-flow rows with no invalid rows, scoped sequence gaps, out-of-order events, or queue drops, plus exact sampled trade-count/volume parity.
+- Designed mutation-driven streaming with bootstrap-plus-delta synchronization, shared serialization, slow-client isolation, sequence-aware resynchronization, low-millisecond coalescing boundaries, and dirty-row/cell rendering instead of full-table redraws.
+- Implemented authenticated ingestion, replay protection, loopback-only internal services, invite-required viewer sessions, Origin checks, secure cookies, rate/capacity bounds, and audit logging.
+- Built and operated agent-style workflows covering tool orchestration, state/memory handling, permissions, guardrails, retries, health checks, structured logs, version compatibility, failure-mode analysis, and rollback-aware recovery.
 
 ## Selected Public Project
 
@@ -36,6 +36,11 @@ Software engineer building production-oriented systems across AI-agent lifecycle
 - **Architecture:** Event-driven systems, concurrency, canonical state, REST, WebSocket, SSE, SQLite
 - **AI and tooling:** AI agents, tool orchestration, local LLM runtimes, developer tooling, CLI design, automation
 - **Reliability:** Testing, CI/CD, structured logging, observability, health/readiness, retries, incident recovery, secure design
+
+## Education and Languages
+
+- **Bachelor of Computer Science and Business Administration** - Suez Canal University, Egypt - 2008
+- **Languages:** Arabic - Native | English - Good working proficiency
 
 ## Additional Background
 
