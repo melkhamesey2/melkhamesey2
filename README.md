@@ -1,94 +1,82 @@
 # Moustafa Elkhamesey
 
-**Local AI Systems Engineer** focused on GPU performance, local AI media pipelines, automation workflows, and real-time analytics.
+**Software Engineer | AI Agent Lifecycle | Developer Tooling | Real-Time Systems**
 
-I build practical, local-first AI systems that turn complex models, tools, and hardware constraints into repeatable production workflows.
+I build production-oriented software across agent runtimes, developer tooling, real-time data systems, automation, and operational reliability. My work emphasizes clear state ownership, bounded failure handling, observability, secure-by-default interfaces, testing, and maintainable delivery.
+
+Based in Port Said, Egypt. Open to remote work and international relocation.
+
+---
+
+## Engineering Focus
+
+- **AI agent lifecycle:** tools, state, memory, permissions, guardrails, retries, evaluations, logging, and recovery
+- **Real-time systems:** event-driven ingestion, canonical state, WebSocket/SSE delivery, incremental rendering, and reconciliation
+- **Developer tooling:** CLI utilities, validation, structured reports, fixtures, test automation, and operator workflows
+- **Reliability engineering:** failure-mode analysis, health/readiness gates, rollback discipline, version compatibility, and incident recovery
+- **Secure systems:** authenticated ingestion, anti-replay controls, trust boundaries, rate/capacity limits, and defensive investigation
+
+## Technical Stack
+
+**Languages:** Go, Java, JavaScript/TypeScript, Node.js, Python, SQL, PowerShell  
+**Systems:** REST APIs, WebSocket, SSE, SQLite, event-driven architecture, concurrent pipelines, local AI runtimes  
+**Delivery:** Git, GitHub Actions, CI/CD, automated testing, structured logging, observability, release verification  
+**Platforms:** Windows-native systems, GPU-aware local inference, container-supported workflows
 
 ---
 
-## Core Focus
+## Featured Engineering Work
 
-### AI Infrastructure & GPU Optimization
-- Local AI runtime setup and troubleshooting
-- GPU memory budgeting and workload stability
-- Windows-native and WSL-based AI environments
-- Inference and fine-tuning workflow optimization
-- Practical performance diagnostics for local AI systems
+### [OpenClaw Runtime Stabilizer](https://github.com/melkhamesey2/openclaw-runtime-stabilizer)
 
-### Local AI Media Pipelines
-- AI video generation workflows
-- Image-to-video and speech-to-video production pipelines
-- Arabic voice, dubbing, and lip-sync workflow design
-- Subtitle, caption, and short-form video automation
-- FFmpeg-based post-processing and media preparation
+A public reliability toolkit and case study for stateful AI-agent runtime incidents. It includes a read-only session-store analyzer, streaming JSONL validation, structured logging, fixture-driven tests, Markdown reports, version checks, rollback policy, and GitHub Actions verification.
 
-### Automation & Agent Workflows
-- Local-first automation pipelines
-- Tool orchestration for AI-assisted workflows
-- Batch processing, job queues, and retry-aware execution
-- File-based and event-driven production systems
-- Workflow design with logging, guardrails, and failure handling
+**Evidence:** runnable Node.js tooling, mock environments, tests, CI, large-file handling, redaction boundaries, and operator documentation.
 
-### Real-time Analytics
-- Streaming data ingestion
-- Market data analysis concepts
-- Order-book and liquidity signal exploration
-- Real-time alerting and decision-support workflows
-- Dashboard-oriented analytics architecture
+### Real-Time Market Intelligence Platform - private implementation
 
-### Security & Technical Investigation
-- Defensive security tooling
-- Web endpoint triage and evidence organization
-- HAR/Burp-style analysis workflows
-- Reverse engineering for debugging, interoperability, and system understanding
+A multi-component market-data system integrating Java runtime instrumentation, authenticated ingestion, a Go canonical-state engine, WebSocket/SSE delivery, asynchronous SQLite persistence, and incremental browser rendering.
+
+A verified development recovery run processed **279 instruments and 241,511 executions with 0 invalid rows, 0 scoped sequence gaps, 0 out-of-order events, and 0 queue drops**. The project uses explicit production-readiness gates and does not claim production acceptance before clean-build, security, packaged-smoke, latency, and first-live-session evidence are complete.
+
+[Read the sanitized architecture case study](portfolio/realtime-market-intelligence-platform.md)
+
+### Agent Lifecycle and Runtime Reliability
+
+A lifecycle-centered engineering approach covering state discovery, tool execution, permissions, retries, observability, version drift, rollback, and post-change verification.
+
+[Read the case study](portfolio/agent-lifecycle-and-runtime-reliability.md)
 
 ---
+
+## Engineering Principles
+
+```text
+Preserve state before mutation
+Separate diagnosis from repair
+Keep critical paths non-blocking
+Make failures visible and bounded
+Secure trust boundaries explicitly
+Test with fixtures and reproducible evidence
+Reject releases when evidence is incomplete
+```
 
 ## Current Direction
 
-I am building a public portfolio around safe, sanitized case studies and architecture notes covering:
+I am expanding this portfolio with sanitized, runnable engineering artifacts around:
 
-- Local AI video production systems
-- Arabic AI avatar and lip-sync pipelines
-- GPU performance and VRAM-aware execution
-- Real-time trading analytics architecture
-- Local automation and agent workflows
+- AI agent developer tooling and evaluation
+- stateful runtime reliability
+- real-time ingestion and streaming interfaces
+- secure automation and operational control
+- performance-aware local AI systems
 
-This profile intentionally shares architecture, documentation, and sanitized examples only. Production scripts, private workflows, prompts, tuning recipes, and client-specific logic are not published.
-
----
-
-## Public Repositories Coming Soon
-
-- `local-ai-media-pipeline-showcase`
-- `gpu-ai-performance-notes`
-- `arabic-ai-avatar-pipeline`
-- `realtime-analytics-showcase`
-- `automation-workflows-showcase`
-- `security-triage-tools`
-
----
-
-## Working Style
-
-I focus on production-grade systems with:
-
-- Clear architecture
-- Practical constraints
-- Logging and observability
-- Error handling
-- Performance awareness
-- Security-conscious design
-- Maintainable workflows
+Private production logic, licensed integrations, credentials, client data, prompts, and proprietary trading rules are not published.
 
 ---
 
 ## Contact
 
-Open to selected collaborations around:
-
-- Local AI infrastructure
-- GPU optimization
-- AI media production pipelines
-- Automation systems
-- Real-time analytics tools
+- Email: [melkhamesey2@gmail.com](mailto:melkhamesey2@gmail.com)
+- LinkedIn: [Moustafa Elkhamesey](https://www.linkedin.com/in/moustafa-elkhamesey-b54b91412)
+- GitHub: [@melkhamesey2](https://github.com/melkhamesey2)
