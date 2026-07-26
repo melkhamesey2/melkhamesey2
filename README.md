@@ -6,6 +6,8 @@ I build production-oriented software across agent runtimes, developer tooling, r
 
 Based in Port Said, Egypt. Open to remote work and international relocation.
 
+[View public resume](RESUME.md)
+
 ---
 
 ## Engineering Focus
@@ -77,6 +79,7 @@ Private production logic, licensed integrations, credentials, client data, promp
 
 ## Contact
 
+- Resume: [Public resume](RESUME.md)
 - Email: [melkhamesey2@gmail.com](mailto:melkhamesey2@gmail.com)
 - LinkedIn: [Moustafa Elkhamesey](https://www.linkedin.com/in/moustafa-elkhamesey-b54b91412)
 - GitHub: [@melkhamesey2](https://github.com/melkhamesey2)
