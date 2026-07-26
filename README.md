@@ -1,53 +1,104 @@
 # Moustafa Elkhamesey
 
-**Software Engineer | AI Agent Lifecycle | Developer Tooling | Real-Time Systems**
+**Principal Technology Architect & Systems Builder**
 
-I build production-oriented software across agent runtimes, developer tooling, real-time data systems, automation, and operational reliability. My work emphasizes clear state ownership, bounded failure handling, observability, secure-by-default interfaces, testing, and maintainable delivery.
+**AI · Software Platforms · Cybersecurity · Games · Real-Time Systems · Automation · Performance Engineering**
 
-Based in Port Said, Egypt. Open to remote work and international relocation.
+I design, build, investigate, stabilize, secure, and optimize technology systems across the complete delivery lifecycle. My work combines architecture with direct implementation: problem discovery, product definition, system design, coding, integration, testing, security hardening, deployment, incident recovery, performance tuning, release governance, and operational decision-making.
+
+Based in Port Said, Egypt. Open to high-impact remote roles and international relocation.
 
 [View public resume](RESUME.md)
 
 ---
 
-## Engineering Focus
+## Professional Identity
 
-- **AI agent lifecycle:** tools, state, memory, permissions, guardrails, retries, evaluations, logging, and recovery
-- **Real-time systems:** event-driven ingestion, canonical state, WebSocket/SSE delivery, incremental rendering, and reconciliation
-- **Developer tooling:** CLI utilities, validation, structured reports, fixtures, test automation, and operator workflows
-- **Reliability engineering:** failure-mode analysis, health/readiness gates, rollback discipline, version compatibility, and incident recovery
-- **Secure systems:** authenticated ingestion, anti-replay controls, trust boundaries, rate/capacity limits, and defensive investigation
+I operate as an independent principal-level architect and hands-on systems builder rather than as a framework-specific developer or architecture-only advisor.
 
-## Technical Stack
+My strongest value is the ability to enter unfamiliar and complex environments, establish the real system boundaries, identify root causes across software and hardware layers, make explicit trade-offs, and deliver a maintainable solution with measurable operational evidence.
 
-**Languages:** Go, Java, JavaScript/TypeScript, Node.js, Python, SQL, PowerShell  
-**Systems:** REST APIs, WebSocket, SSE, SQLite, event-driven architecture, concurrent pipelines, local AI runtimes  
-**Delivery:** Git, GitHub Actions, CI/CD, automated testing, structured logging, observability, release verification  
-**Platforms:** Windows-native systems, GPU-aware local inference, container-supported workflows
+```text
+Problem discovery
+→ Product and system definition
+→ Architecture and threat modeling
+→ Hands-on implementation
+→ Integration and data validation
+→ Testing and performance analysis
+→ Security hardening
+→ Deployment and release verification
+→ Incident recovery and operational improvement
+```
 
 ---
 
-## Featured Engineering Work
+## Capability Portfolio
 
-### [OpenClaw Runtime Stabilizer](https://github.com/melkhamesey2/openclaw-runtime-stabilizer)
+### Software Architecture & Application Engineering
 
-A public reliability toolkit and case study for stateful AI-agent runtime incidents. It includes a read-only session-store analyzer, streaming JSONL validation, structured logging, fixture-driven tests, Markdown reports, version checks, rollback policy, and GitHub Actions verification.
+- Full-stack web platforms, REST APIs, browser applications, desktop utilities, Android applications, SQL-backed operational systems, reporting, export, background services, and deployment packaging
+- Modular architecture, event-driven design, concurrent processing, canonical state, queues, lifecycle management, persistence boundaries, interface contracts, and validation rules
+- Product workflows designed around actual operator behavior, failure recovery, maintainability, and low-friction daily use
 
-**Evidence:** runnable Node.js tooling, mock environments, tests, CI, large-file handling, redaction boundaries, and operator documentation.
+### Artificial Intelligence & Local Model Infrastructure
 
-### Real-Time Market Intelligence Platform - private implementation
+- Local LLM deployment, model serving, quantized model formats, inference controls, context and memory constraints, GPU/VRAM budgeting, and performance-aware routing
+- CUDA and PyTorch troubleshooting, adapter and fine-tuning workflows, model evaluation, model merging, repetition and truncation diagnosis, and runtime stability
+- AI-agent systems with tools, memory, state, planning, permissions, guardrails, retries, approvals, observability, and recovery
 
-A multi-component market-data system integrating Java runtime instrumentation, authenticated ingestion, a Go canonical-state engine, WebSocket/SSE delivery, asynchronous SQLite persistence, and incremental browser rendering.
+### Real-Time Data & Decision-Support Systems
 
-A verified development recovery run processed **279 instruments and 241,511 executions with 0 invalid rows, 0 scoped sequence gaps, 0 out-of-order events, and 0 queue drops**. The project uses explicit production-readiness gates and does not claim production acceptance before clean-build, security, packaged-smoke, latency, and first-live-session evidence are complete.
+- Streaming ingestion, event-driven state updates, real-time browser delivery, WebSocket/SSE interfaces, asynchronous persistence, incremental rendering, quality checks, and reconciliation
+- Market and session analytics, trade and liquidity views, order-book concepts, participant-flow analysis, ranking, filtering, alerts, and explicit data-quality states
+- Large-session validation across hundreds of instruments and hundreds of thousands of records while tracking invalid data, gaps, ordering, queue pressure, and parity
 
-[Read the sanitized architecture case study](portfolio/realtime-market-intelligence-platform.md)
+### Cybersecurity, Reverse Engineering & Technical Investigation
 
-### Agent Lifecycle and Runtime Reliability
+- Defensive application review, endpoint and API analysis, traffic inspection, HAR/proxy evidence, authentication and session analysis, configuration review, and trust-boundary assessment
+- Threat modeling, security hardening, authenticated transports, request signing, replay resistance, secret boundaries, loopback isolation, Origin validation, secure sessions, rate limits, and audit logging
+- Reverse engineering for debugging, interoperability, runtime understanding, and security investigation
 
-A lifecycle-centered engineering approach covering state discovery, tool execution, permissions, retries, observability, version drift, rollback, and post-change verification.
+### Games & Interactive Systems
 
-[Read the case study](portfolio/agent-lifecycle-and-runtime-reliability.md)
+- Game mechanics, movement, controls, collision and physics behavior, combat, progression, interface design, character and enemy systems, asset integration, and visual refinement
+- Browser performance, compatibility, packaging, platform submission, quality review, commercial-readiness iteration, and post-submission improvement
+
+### AI Media & Content Production
+
+- Image and video generation workflows, image-to-video, speech-to-video, Arabic voice production, dubbing, lip synchronization, subtitles, captions, and short-form content automation
+- FFmpeg-based preparation and post-processing, batch execution, media validation, repeatable workflow design, and production troubleshooting
+
+### Hardware, GPU, Power & Performance Engineering
+
+- High-performance Windows workstation diagnosis across GPU scheduling, VRAM use, model and runtime loading, CPU/GPU fallback, drivers, firmware, storage controllers, thermals, and power profiles
+- Display and GPU switching, background-process analysis, runtime stability, storage behavior, sustained throughput, and software-hardware boundary failures
+- Performance decisions based on real constraints rather than synthetic configuration alone
+
+### Reliability, DevOps & Operational Engineering
+
+- Windows-native engineering, PowerShell automation, WSL and container-aware workflows, Docker, Git, GitHub Actions, CI/CD, automated tests, fixtures, and validation gates
+- Structured logging, metrics, health and readiness checks, recovery, rollback, backup-first changes, reproducible evidence, runbooks, and release verification
+- Explicit rejection of releases when artifact identity, security, data integrity, performance, or operational evidence is incomplete
+
+### Product Architecture & Commercial Delivery
+
+- Product definition, feature prioritization, visual and operational usability, platform compliance, publishing workflows, pricing and capacity analysis, and build-versus-buy decisions
+- Local-versus-cloud architecture, hosting economics, access control, user limits, security exposure, monetization constraints, and launch acceptance criteria
+- Experience moving products from concept and prototype through testing, submission, refinement, launch preparation, and operational review
+
+---
+
+## Technology Landscape
+
+**Languages and scripting:** Go, Java, Python, JavaScript, TypeScript, Node.js, SQL, PowerShell, HTML, CSS, shell-based tooling, plus rapid adoption of engine-specific languages and frameworks when required
+
+**Architecture and data:** REST, WebSocket, SSE, SQLite, relational modeling, event streams, concurrent pipelines, canonical state, lifecycle systems, browser runtimes, Android tooling, desktop integration
+
+**AI and media:** Local LLM runtimes, Hugging Face ecosystem, GPU inference, quantized models, CUDA/PyTorch troubleshooting, LoRA-family workflows, model merging, FFmpeg, image/video/audio pipelines
+
+**Security and operations:** Traffic and endpoint analysis, proxy/HAR workflows, threat modeling, hardening, authenticated transport, structured logging, monitoring, incident response, backup, rollback, release validation
+
+**Delivery platforms:** Windows, WSL, Docker, Git, GitHub Actions, CI/CD, local infrastructure, cloud and VPS architecture evaluation
 
 ---
 
@@ -59,27 +110,25 @@ Separate diagnosis from repair
 Keep critical paths non-blocking
 Make failures visible and bounded
 Secure trust boundaries explicitly
-Test with fixtures and reproducible evidence
+Measure performance at the real bottleneck
+Validate with reproducible evidence
 Reject releases when evidence is incomplete
+Optimize for maintainability, not demonstrations
 ```
 
-## Current Direction
+---
 
-I am expanding this portfolio with sanitized, runnable engineering artifacts around:
+## Public Boundary
 
-- AI agent developer tooling and evaluation
-- stateful runtime reliability
-- real-time ingestion and streaming interfaces
-- secure automation and operational control
-- performance-aware local AI systems
+This profile intentionally describes capabilities, architecture patterns, and sanitized engineering evidence only.
 
-Private production logic, licensed integrations, credentials, client data, prompts, and proprietary trading rules are not published.
+Private source code, credentials, tokens, licensed integrations, proprietary algorithms, customer data, private prompts, machine-specific access details, and operational secrets are not published.
 
 ---
 
 ## Contact
 
-- Resume: [Public resume](RESUME.md)
-- Email: [melkhamesey2@gmail.com](mailto:melkhamesey2@gmail.com)
-- LinkedIn: [Moustafa Elkhamesey](https://www.linkedin.com/in/moustafa-elkhamesey-b54b91412)
-- GitHub: [@melkhamesey2](https://github.com/melkhamesey2)
+- [Public Resume](RESUME.md)
+- [Email](mailto:melkhamesey2@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/moustafa-elkhamesey-b54b91412)
+- [GitHub](https://github.com/melkhamesey2)
